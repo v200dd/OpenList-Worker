@@ -5,11 +5,11 @@
   <p>本仓库是官方 <a href="https://github.com/OpenListTeam/OpenList">OpenListTeam/OpenList</a> 项目的 TypeScript + Serverless 架构移植版</p>
   <p>基于 Cloudflare Workers / EdgeOne Cloud Function / Alibaba Cloud ESA 运行</p>
 
-<a href="https://github.com/OpenListTeam/OpenList-Worker/blob/main/LICENSE"><img src="https://img.shields.io/github/license/OpenListTeam/OpenList-Worker" alt="License" /></a>
-<a href="https://github.com/OpenListTeam/OpenList-Worker/actions/workflows/edgeone-artifact-guard.yml"><img src="https://img.shields.io/github/actions/workflow/status/OpenListTeam/OpenList-Worker/edgeone-artifact-guard.yml?branch=main" alt="Build status" /></a>
-<a href="https://github.com/OpenListTeam/OpenList-Worker/releases"><img src="https://img.shields.io/github/release/OpenListTeam/OpenList-Worker" alt="latest version" /></a>
-<a href="https://github.com/OpenListTeam/OpenList-Worker/discussions"><img src="https://img.shields.io/github/discussions/OpenListTeam/OpenList-Worker?color=%23ED8936" alt="discussions" /></a>
-<a href="https://github.com/OpenListTeam/OpenList-Worker/releases"><img src="https://img.shields.io/github/downloads/OpenListTeam/OpenList-Worker/total?color=%239F7AEA&logo=github" alt="Downloads" /></a>
+<a href="https://github.com/v200dd/OpenList-Worker/blob/main/LICENSE"><img src="https://img.shields.io/github/license/OpenListTeam/OpenList-Worker" alt="License" /></a>
+<a href="https://github.com/v200dd/OpenList-Worker/actions/workflows/edgeone-artifact-guard.yml"><img src="https://img.shields.io/github/actions/workflow/status/OpenListTeam/OpenList-Worker/edgeone-artifact-guard.yml?branch=main" alt="Build status" /></a>
+<a href="https://github.com/v200dd/OpenList-Worker/releases"><img src="https://img.shields.io/github/release/OpenListTeam/OpenList-Worker" alt="latest version" /></a>
+<a href="https://github.com/v200dd/OpenList-Worker/discussions"><img src="https://img.shields.io/github/discussions/OpenListTeam/OpenList-Worker?color=%23ED8936" alt="discussions" /></a>
+<a href="https://github.com/v200dd/OpenList-Worker/releases"><img src="https://img.shields.io/github/downloads/OpenListTeam/OpenList-Worker/total?color=%239F7AEA&logo=github" alt="Downloads" /></a>
 
 📘 [使用文档](https://doc.oplist.org) · 🌏 [使用文档（中国大陆）](https://doc.oplist.org.cn)  · ⚖️ [使用条款](https://doc.oplist.org/terms)  · 🔒 [隐私政策](https://doc.oplist.org/privacy)
 
@@ -21,7 +21,7 @@
 
 [Português](readmes/README_pt.md) | [Русский](readmes/README_ru.md) | [العربية](readmes/README_ar.md) | [Italiano](readmes/README_it.md) | [हिन्दी](readmes/README_hi.md) | [Español](readmes/README_es.md)
 
-[上游项目](https://github.com/OpenListTeam/OpenList) · [贡献指南](https://github.com/OpenListTeam/OpenList-Worker/blob/main/CONTRIBUTING.md) · [行为准则](https://github.com/OpenListTeam/OpenList-Worker/blob/main/CODE_OF_CONDUCT.md) · [许可证](./LICENSE)
+[上游项目](https://github.com/OpenListTeam/OpenList) · [贡献指南](https://github.com/v200dd/OpenList-Worker/blob/main/CONTRIBUTING.md) · [行为准则](https://github.com/v200dd/OpenList-Worker/blob/main/CODE_OF_CONDUCT.md) · [许可证](./LICENSE)
 
 [🌎 全球 Demo](https://new.oplist.org) 　|　 [🇨🇳 中国 Demo](https://new.oplist.org.cn)
 
@@ -37,12 +37,12 @@
 
 | EdgeOne Makers · 国际站 | EdgeOne Makers · 中国站 | Cloudflare Workers · 全球站 |
 | :---: | :---: | :---: |
-| [![使用 EdgeOne 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?project-name=openlist-tsworker&repository-url=https://github.com/OpenListTeam/OpenList-Worker&install-command=pnpm%20install%20--no-frozen-lockfile&build-command=pnpm%20run%20build&output-directory=dist&env=ENCRYPTION_SECRET,JWT_SECRET) | [![使用 EdgeOne 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://console.cloud.tencent.com/edgeone/pages/new?project-name=openlist-tsworker&repository-url=https://github.com/OpenListTeam/OpenList-Worker&install-command=pnpm%20install%20--no-frozen-lockfile&build-command=pnpm%20run%20build&output-directory=dist&env=ENCRYPTION_SECRET,JWT_SECRET) | [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/OpenListTeam/OpenList-Worker) |
+| [![使用 EdgeOne 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?project-name=openlist-tsworker&repository-url=https://github.com/v200dd/OpenList-Worker&install-command=pnpm%20install%20--no-frozen-lockfile&build-command=pnpm%20run%20build&output-directory=dist&env=ENCRYPTION_SECRET,JWT_SECRET) | [![使用 EdgeOne 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://console.cloud.tencent.com/edgeone/pages/new?project-name=openlist-tsworker&repository-url=https://github.com/v200dd/OpenList-Worker&install-command=pnpm%20install%20--no-frozen-lockfile&build-command=pnpm%20run%20build&output-directory=dist&env=ENCRYPTION_SECRET,JWT_SECRET) | [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/v200dd/OpenList-Worker) |
 
 </div>
 
 > [!IMPORTANT]
-> - 若Cloudflare提示`无法获取存储库内容`，则您需要先[Fork](https://github.com/OpenListTeam/OpenList-Worker/fork)本项目，再通过连接到Github仓库功能部署
+> - 若Cloudflare提示`无法获取存储库内容`，则您需要先[Fork](https://github.com/v200dd/OpenList-Worker/fork)本项目，再通过连接到Github仓库功能部署
 > - 部署完成后配置环境变量： **EdgeOne**：[国际站](https://console.edgeone.ai/makers) · [中国站](https://console.cloud.tencent.com/edgeone/makers)；**Cloudflare**：[Worker 后台](https://dash.cloudflare.com/)，环境变量：
 >   - `DB_FORMAT`: 数据存储格式：`map` (默认，整对象JSON) / `key` (分key存储) / `sql` (关系表，与Go后端一致)
 >   - `DB_DRIVER`: 数据库驱动：`auto` (默认，自动检测) / `blob` (EdgeOne Blob) / `cfkv` (CF KV API) / `kv` (KV binding) / `d1` (Cloudflare D1) / `mysql`
@@ -72,6 +72,8 @@ OpenList-Worker 是官方 [OpenListTeam/OpenList](https://github.com/OpenListTea
 
 - **文件浏览**：统一的目录树浏览，支持图片、视频、音频、文档、代码、压缩包等格式在线预览。
 - **上传下载**：跨存储的上传、批量下载、流式传输与直链跳转。
+- **全局关闭下载**：站点设置可隐藏下载、复制链接、二维码及右键菜单中的同类入口（`enable_file_download`）。
+- **短链接**：IPA / 复制链接可走自定义短链接口（默认 `https://url.200996.xyz/create`）。
 - **文件分享**：生成带有效期、密码与权限控制的分享链接，支持匿名访问与目录分享。
 - **全文搜索**：在已索引的存储中快速检索文件。
 - **离线任务**：后台任务队列，支持批量操作与异步处理。
@@ -224,7 +226,7 @@ CF_API_TOKEN=your_api_token
 
 在使用过程中遇到问题，可通过以下渠道获取帮助：
 
-- 🐛 **提交 Bug 或功能请求**：请前往 [_Issues_](https://github.com/OpenListTeam/OpenList-Worker/issues)
+- 🐛 **提交 Bug 或功能请求**：请前往 [_Issues_](https://github.com/v200dd/OpenList-Worker/issues)
 - 💬 **一般性问题与交流**：请前往 [_Discussions_](https://github.com/OpenListTeam/OpenList/discussions) 讨论区
 
 ## 开源许可
@@ -244,4 +246,4 @@ CF_API_TOKEN=your_api_token
 - [OpenList](https://github.com/OpenListTeam/OpenList)（Go 版）项目作者及全体贡献者
 - 本项目全体贡献者：
 
-[![Contributors](https://contrib.rocks/image?repo=OpenListTeam/OpenList-Worker)](https://github.com/OpenListTeam/OpenList-Worker/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=OpenListTeam/OpenList-Worker)](https://github.com/v200dd/OpenList-Worker/graphs/contributors)

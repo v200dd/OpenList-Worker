@@ -5,11 +5,11 @@
   <p>이 저장소는 공식 <a href="https://github.com/OpenListTeam/OpenList">OpenListTeam/OpenList</a> 프로젝트의 TypeScript + Serverless 아키텍처 포팅 버전입니다</p>
   <p>Cloudflare Workers / EdgeOne Cloud Function / Alibaba Cloud ESA에서 실행됩니다</p>
 
-<a href="https://github.com/OpenListTeam/OpenList-Worker/blob/main/LICENSE"><img src="https://img.shields.io/github/license/OpenListTeam/OpenList-Worker" alt="License" /></a>
-<a href="https://github.com/OpenListTeam/OpenList-Worker/actions/workflows/edgeone-artifact-guard.yml"><img src="https://img.shields.io/github/actions/workflow/status/OpenListTeam/OpenList-Worker/edgeone-artifact-guard.yml?branch=main" alt="Build status" /></a>
-<a href="https://github.com/OpenListTeam/OpenList-Worker/releases"><img src="https://img.shields.io/github/release/OpenListTeam/OpenList-Worker" alt="latest version" /></a>
-<a href="https://github.com/OpenListTeam/OpenList-Worker/discussions"><img src="https://img.shields.io/github/discussions/OpenListTeam/OpenList-Worker?color=%23ED8936" alt="discussions" /></a>
-<a href="https://github.com/OpenListTeam/OpenList-Worker/releases"><img src="https://img.shields.io/github/downloads/OpenListTeam/OpenList-Worker/total?color=%239F7AEA&logo=github" alt="Downloads" /></a>
+<a href="https://github.com/v200dd/OpenList-Worker/blob/main/LICENSE"><img src="https://img.shields.io/github/license/OpenListTeam/OpenList-Worker" alt="License" /></a>
+<a href="https://github.com/v200dd/OpenList-Worker/actions/workflows/edgeone-artifact-guard.yml"><img src="https://img.shields.io/github/actions/workflow/status/OpenListTeam/OpenList-Worker/edgeone-artifact-guard.yml?branch=main" alt="Build status" /></a>
+<a href="https://github.com/v200dd/OpenList-Worker/releases"><img src="https://img.shields.io/github/release/OpenListTeam/OpenList-Worker" alt="latest version" /></a>
+<a href="https://github.com/v200dd/OpenList-Worker/discussions"><img src="https://img.shields.io/github/discussions/OpenListTeam/OpenList-Worker?color=%23ED8936" alt="discussions" /></a>
+<a href="https://github.com/v200dd/OpenList-Worker/releases"><img src="https://img.shields.io/github/downloads/OpenListTeam/OpenList-Worker/total?color=%239F7AEA&logo=github" alt="Downloads" /></a>
 
 📘 [사용 문서](https://doc.oplist.org) · 🌏 [사용 문서（중국 본토）](https://doc.oplist.org.cn)  · ⚖️ [이용 약관](https://doc.oplist.org/terms)  · 🔒 [개인정보 처리방침](https://doc.oplist.org/privacy)
 
@@ -21,7 +21,7 @@
 
 [Português](README_pt.md) | [Русский](README_ru.md) | [العربية](README_ar.md) | [Italiano](README_it.md) | [हिन्दी](README_hi.md) | [Español](README_es.md)
 
-[업스트림 프로젝트](https://github.com/OpenListTeam/OpenList) · [기여 가이드](https://github.com/OpenListTeam/OpenList-Worker/blob/main/CONTRIBUTING.md) · [행동 강령](https://github.com/OpenListTeam/OpenList-Worker/blob/main/CODE_OF_CONDUCT.md) · [라이선스](./LICENSE)
+[업스트림 프로젝트](https://github.com/OpenListTeam/OpenList) · [기여 가이드](https://github.com/v200dd/OpenList-Worker/blob/main/CONTRIBUTING.md) · [행동 강령](https://github.com/v200dd/OpenList-Worker/blob/main/CODE_OF_CONDUCT.md) · [라이선스](./LICENSE)
 
 [🌎 글로벌 데모](https://new.oplist.org) 　|　 [🇨🇳 중국 데모](https://new.oplist.org.cn)
 
@@ -37,12 +37,12 @@
 
 | EdgeOne Makers · 국제 | EdgeOne Makers · 중국 | Cloudflare Workers · 글로벌 |
 | :---: | :---: | :---: |
-| [![EdgeOne에 배포](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?project-name=openlist-tsworker&repository-url=https://github.com/OpenListTeam/OpenList-Worker&install-command=pnpm%20install%20--no-frozen-lockfile&build-command=pnpm%20run%20build&output-directory=dist&env=ENCRYPTION_SECRET,JWT_SECRET) | [![EdgeOne에 배포](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://console.cloud.tencent.com/edgeone/pages/new?project-name=openlist-tsworker&repository-url=https://github.com/OpenListTeam/OpenList-Worker&install-command=pnpm%20install%20--no-frozen-lockfile&build-command=pnpm%20run%20build&output-directory=dist&env=ENCRYPTION_SECRET,JWT_SECRET) | [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/OpenListTeam/OpenList-Worker) |
+| [![EdgeOne에 배포](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?project-name=openlist-tsworker&repository-url=https://github.com/v200dd/OpenList-Worker&install-command=pnpm%20install%20--no-frozen-lockfile&build-command=pnpm%20run%20build&output-directory=dist&env=ENCRYPTION_SECRET,JWT_SECRET) | [![EdgeOne에 배포](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://console.cloud.tencent.com/edgeone/pages/new?project-name=openlist-tsworker&repository-url=https://github.com/v200dd/OpenList-Worker&install-command=pnpm%20install%20--no-frozen-lockfile&build-command=pnpm%20run%20build&output-directory=dist&env=ENCRYPTION_SECRET,JWT_SECRET) | [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/v200dd/OpenList-Worker) |
 
 </div>
 
 > [!IMPORTANT]
-> - Cloudflare에서 `저장소 콘텐츠를 가져올 수 없습니다`라고 표시되면, 먼저 이 프로젝트를 [Fork](https://github.com/OpenListTeam/OpenList-Worker/fork)한 다음 Github 저장소 연결 기능으로 배포하세요
+> - Cloudflare에서 `저장소 콘텐츠를 가져올 수 없습니다`라고 표시되면, 먼저 이 프로젝트를 [Fork](https://github.com/v200dd/OpenList-Worker/fork)한 다음 Github 저장소 연결 기능으로 배포하세요
 > - 배포 후 환경 변수를 설정합니다： **EdgeOne**：[국제 콘솔](https://console.edgeone.ai/makers) · [중국 콘솔](https://console.cloud.tencent.com/edgeone/makers)；**Cloudflare**：[Worker 대시보드](https://dash.cloudflare.com/)。환경 변수：
 >   - `DB_FORMAT`: 데이터 저장 형식: `map` (기본값, 전체 객체 JSON) / `key` (키별 저장) / `sql` (관계형 테이블, Go 백엔드 호환)
 >   - `DB_DRIVER`: 데이터베이스 드라이버: `auto` (기본값, 자동 감지) / `blob` / `cfkv` / `kv` / `d1` / `mysql`
@@ -152,7 +152,7 @@ pnpm run deploy:worker
 
 사용 중 문제가 발생하면 다음 채널을 통해 도움을 받을 수 있습니다：
 
-- 🐛 **버그 신고 또는 기능 요청**：[_Issues_](https://github.com/OpenListTeam/OpenList-Worker/issues)로 이동
+- 🐛 **버그 신고 또는 기능 요청**：[_Issues_](https://github.com/v200dd/OpenList-Worker/issues)로 이동
 - 💬 **일반 질문 및 소통**：[_Discussions_](https://github.com/OpenListTeam/OpenList/discussions) 포럼으로 이동
 
 ## 라이선스
@@ -172,4 +172,4 @@ pnpm run deploy:worker
 - [OpenList](https://github.com/OpenListTeam/OpenList)（Go 버전）프로젝트 작성자 및 모든 기여자
 - 이 프로젝트의 모든 기여자：
 
-[![Contributors](https://contrib.rocks/image?repo=OpenListTeam/OpenList-Worker)](https://github.com/OpenListTeam/OpenList-Worker/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=OpenListTeam/OpenList-Worker)](https://github.com/v200dd/OpenList-Worker/graphs/contributors)

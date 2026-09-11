@@ -5,11 +5,11 @@
   <p>यह रिपॉजिटरी आधिकारिक <a href="https://github.com/OpenListTeam/OpenList">OpenListTeam/OpenList</a> परियोजना का TypeScript + Serverless आर्किटेक्चर पोर्ट है</p>
   <p>Cloudflare Workers / EdgeOne Cloud Function / Alibaba Cloud ESA पर चलता है</p>
 
-<a href="https://github.com/OpenListTeam/OpenList-Worker/blob/main/LICENSE"><img src="https://img.shields.io/github/license/OpenListTeam/OpenList-Worker" alt="License" /></a>
-<a href="https://github.com/OpenListTeam/OpenList-Worker/actions/workflows/edgeone-artifact-guard.yml"><img src="https://img.shields.io/github/actions/workflow/status/OpenListTeam/OpenList-Worker/edgeone-artifact-guard.yml?branch=main" alt="Build status" /></a>
-<a href="https://github.com/OpenListTeam/OpenList-Worker/releases"><img src="https://img.shields.io/github/release/OpenListTeam/OpenList-Worker" alt="latest version" /></a>
-<a href="https://github.com/OpenListTeam/OpenList-Worker/discussions"><img src="https://img.shields.io/github/discussions/OpenListTeam/OpenList-Worker?color=%23ED8936" alt="discussions" /></a>
-<a href="https://github.com/OpenListTeam/OpenList-Worker/releases"><img src="https://img.shields.io/github/downloads/OpenListTeam/OpenList-Worker/total?color=%239F7AEA&logo=github" alt="Downloads" /></a>
+<a href="https://github.com/v200dd/OpenList-Worker/blob/main/LICENSE"><img src="https://img.shields.io/github/license/OpenListTeam/OpenList-Worker" alt="License" /></a>
+<a href="https://github.com/v200dd/OpenList-Worker/actions/workflows/edgeone-artifact-guard.yml"><img src="https://img.shields.io/github/actions/workflow/status/OpenListTeam/OpenList-Worker/edgeone-artifact-guard.yml?branch=main" alt="Build status" /></a>
+<a href="https://github.com/v200dd/OpenList-Worker/releases"><img src="https://img.shields.io/github/release/OpenListTeam/OpenList-Worker" alt="latest version" /></a>
+<a href="https://github.com/v200dd/OpenList-Worker/discussions"><img src="https://img.shields.io/github/discussions/OpenListTeam/OpenList-Worker?color=%23ED8936" alt="discussions" /></a>
+<a href="https://github.com/v200dd/OpenList-Worker/releases"><img src="https://img.shields.io/github/downloads/OpenListTeam/OpenList-Worker/total?color=%239F7AEA&logo=github" alt="Downloads" /></a>
 
 📘 [उपयोग दस्तावेज़](https://doc.oplist.org) · 🌏 [उपयोग दस्तावेज़（मुख्यभूमि चीन）](https://doc.oplist.org.cn)  · ⚖️ [उपयोग की शर्तें](https://doc.oplist.org/terms)  · 🔒 [गोपनीयता नीति](https://doc.oplist.org/privacy)
 
@@ -21,7 +21,7 @@
 
 [Português](README_pt.md) | [Русский](README_ru.md) | [العربية](README_ar.md) | [Italiano](README_it.md) | हिन्दी | [Español](README_es.md)
 
-[अपस्ट्रीम परियोजना](https://github.com/OpenListTeam/OpenList) · [योगदान मार्गदर्शिका](https://github.com/OpenListTeam/OpenList-Worker/blob/main/CONTRIBUTING.md) · [आचार संहिता](https://github.com/OpenListTeam/OpenList-Worker/blob/main/CODE_OF_CONDUCT.md) · [लाइसेंस](./LICENSE)
+[अपस्ट्रीम परियोजना](https://github.com/OpenListTeam/OpenList) · [योगदान मार्गदर्शिका](https://github.com/v200dd/OpenList-Worker/blob/main/CONTRIBUTING.md) · [आचार संहिता](https://github.com/v200dd/OpenList-Worker/blob/main/CODE_OF_CONDUCT.md) · [लाइसेंस](./LICENSE)
 
 [🌎 वैश्विक डेमो](https://new.oplist.org) 　|　 [🇨🇳 चीन डेमो](https://new.oplist.org.cn)
 
@@ -37,12 +37,12 @@
 
 | EdgeOne Makers · अंतर्राष्ट्रीय | EdgeOne Makers · चीन | Cloudflare Workers · वैश्विक |
 | :---: | :---: | :---: |
-| [![EdgeOne पर तैनात करें](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?project-name=openlist-tsworker&repository-url=https://github.com/OpenListTeam/OpenList-Worker&install-command=pnpm%20install%20--no-frozen-lockfile&build-command=pnpm%20run%20build&output-directory=dist&env=ENCRYPTION_SECRET,JWT_SECRET) | [![EdgeOne पर तैनात करें](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://console.cloud.tencent.com/edgeone/pages/new?project-name=openlist-tsworker&repository-url=https://github.com/OpenListTeam/OpenList-Worker&install-command=pnpm%20install%20--no-frozen-lockfile&build-command=pnpm%20run%20build&output-directory=dist&env=ENCRYPTION_SECRET,JWT_SECRET) | [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/OpenListTeam/OpenList-Worker) |
+| [![EdgeOne पर तैनात करें](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?project-name=openlist-tsworker&repository-url=https://github.com/v200dd/OpenList-Worker&install-command=pnpm%20install%20--no-frozen-lockfile&build-command=pnpm%20run%20build&output-directory=dist&env=ENCRYPTION_SECRET,JWT_SECRET) | [![EdgeOne पर तैनात करें](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://console.cloud.tencent.com/edgeone/pages/new?project-name=openlist-tsworker&repository-url=https://github.com/v200dd/OpenList-Worker&install-command=pnpm%20install%20--no-frozen-lockfile&build-command=pnpm%20run%20build&output-directory=dist&env=ENCRYPTION_SECRET,JWT_SECRET) | [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/v200dd/OpenList-Worker) |
 
 </div>
 
 > [!IMPORTANT]
-> - यदि Cloudflare `रिपॉजिटरी सामग्री प्राप्त नहीं कर सकता` दिखाता है, तो पहले इस परियोजना को [Fork](https://github.com/OpenListTeam/OpenList-Worker/fork) करें, फिर Github रिपॉजिटरी से कनेक्ट करके तैनात करें
+> - यदि Cloudflare `रिपॉजिटरी सामग्री प्राप्त नहीं कर सकता` दिखाता है, तो पहले इस परियोजना को [Fork](https://github.com/v200dd/OpenList-Worker/fork) करें, फिर Github रिपॉजिटरी से कनेक्ट करके तैनात करें
 > - तैनाती के बाद पर्यावरण चर कॉन्फ़िगर करें: **EdgeOne**: [अंतर्राष्ट्रीय कंसोल](https://console.edgeone.ai/makers) · [चीन कंसोल](https://console.cloud.tencent.com/edgeone/makers); **Cloudflare**: [Worker डैशबोर्ड](https://dash.cloudflare.com/)। पर्यावरण चर:
 >   - `DB_FORMAT`: डेटा संग्रहण प्रारूप: `map` (डिफ़ॉल्ट, संपूर्ण ऑब्जेक्ट JSON) / `key` (कुंजी-आधारित संग्रहण) / `sql` (रिलेशनल टेबल, Go बैकएंड संगत)
 >   - `DB_DRIVER`: डेटाबेस ड्राइवर: `auto` (डिफ़ॉल्ट, स्वतः पहचान) / `blob` / `cfkv` / `kv` / `d1` / `mysql`
@@ -152,7 +152,7 @@ pnpm run deploy:worker
 
 उपयोग के दौरान समस्या आने पर, निम्नलिखित चैनलों से सहायता प्राप्त कर सकते हैं:
 
-- 🐛 **बग रिपोर्ट या सुविधा अनुरोध सबमिट करें**: [_Issues_](https://github.com/OpenListTeam/OpenList-Worker/issues) पर जाएँ
+- 🐛 **बग रिपोर्ट या सुविधा अनुरोध सबमिट करें**: [_Issues_](https://github.com/v200dd/OpenList-Worker/issues) पर जाएँ
 - 💬 **सामान्य प्रश्न और संवाद**: [_Discussions_](https://github.com/OpenListTeam/OpenList/discussions) फ़ोरम पर जाएँ
 
 ## लाइसेंस
@@ -172,4 +172,4 @@ pnpm run deploy:worker
 - [OpenList](https://github.com/OpenListTeam/OpenList)（Go संस्करण）परियोजना के लेखक और सभी योगदानकर्ता
 - इस परियोजना के सभी योगदानकर्ता:
 
-[![Contributors](https://contrib.rocks/image?repo=OpenListTeam/OpenList-Worker)](https://github.com/OpenListTeam/OpenList-Worker/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=OpenListTeam/OpenList-Worker)](https://github.com/v200dd/OpenList-Worker/graphs/contributors)

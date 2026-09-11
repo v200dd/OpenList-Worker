@@ -292,6 +292,14 @@ export const defaultDb = {
       group: 3,
       flag: 0,
     },
+    {
+      key: "short_link_api",
+      value: "https://url.200996.xyz/create",
+      type: "string",
+      help: "POST JSON: {\"url\":\"...\"}; response JSON must include link",
+      group: 3,
+      flag: 0,
+    },
 
     // Group 4: GLOBAL (https://doc.oplist.org/configuration/global)
     {
@@ -307,6 +315,14 @@ export const defaultDb = {
       value: "true",
       type: "bool",
       help: "Package Download Enabled",
+      group: 4,
+      flag: 0,
+    },
+    {
+      key: "enable_file_download",
+      value: "true",
+      type: "bool",
+      help: "hide download, copy link, QR code, and the same options in the context menu",
       group: 4,
       flag: 0,
     },

@@ -5,11 +5,11 @@
   <p>Этот репозиторий является официальным портом проекта <a href="https://github.com/OpenListTeam/OpenList">OpenListTeam/OpenList</a> на TypeScript + Serverless</p>
   <p>Работает на Cloudflare Workers / EdgeOne Cloud Function / Alibaba Cloud ESA</p>
 
-<a href="https://github.com/OpenListTeam/OpenList-Worker/blob/main/LICENSE"><img src="https://img.shields.io/github/license/OpenListTeam/OpenList-Worker" alt="License" /></a>
-<a href="https://github.com/OpenListTeam/OpenList-Worker/actions/workflows/edgeone-artifact-guard.yml"><img src="https://img.shields.io/github/actions/workflow/status/OpenListTeam/OpenList-Worker/edgeone-artifact-guard.yml?branch=main" alt="Build status" /></a>
-<a href="https://github.com/OpenListTeam/OpenList-Worker/releases"><img src="https://img.shields.io/github/release/OpenListTeam/OpenList-Worker" alt="latest version" /></a>
-<a href="https://github.com/OpenListTeam/OpenList-Worker/discussions"><img src="https://img.shields.io/github/discussions/OpenListTeam/OpenList-Worker?color=%23ED8936" alt="discussions" /></a>
-<a href="https://github.com/OpenListTeam/OpenList-Worker/releases"><img src="https://img.shields.io/github/downloads/OpenListTeam/OpenList-Worker/total?color=%239F7AEA&logo=github" alt="Downloads" /></a>
+<a href="https://github.com/v200dd/OpenList-Worker/blob/main/LICENSE"><img src="https://img.shields.io/github/license/OpenListTeam/OpenList-Worker" alt="License" /></a>
+<a href="https://github.com/v200dd/OpenList-Worker/actions/workflows/edgeone-artifact-guard.yml"><img src="https://img.shields.io/github/actions/workflow/status/OpenListTeam/OpenList-Worker/edgeone-artifact-guard.yml?branch=main" alt="Build status" /></a>
+<a href="https://github.com/v200dd/OpenList-Worker/releases"><img src="https://img.shields.io/github/release/OpenListTeam/OpenList-Worker" alt="latest version" /></a>
+<a href="https://github.com/v200dd/OpenList-Worker/discussions"><img src="https://img.shields.io/github/discussions/OpenListTeam/OpenList-Worker?color=%23ED8936" alt="discussions" /></a>
+<a href="https://github.com/v200dd/OpenList-Worker/releases"><img src="https://img.shields.io/github/downloads/OpenListTeam/OpenList-Worker/total?color=%239F7AEA&logo=github" alt="Downloads" /></a>
 
 📘 [Документация](https://doc.oplist.org) · 🌏 [Документация (континентальный Китай)](https://doc.oplist.org.cn)  · ⚖️ [Условия использования](https://doc.oplist.org/terms)  · 🔒 [Политика конфиденциальности](https://doc.oplist.org/privacy)
 
@@ -21,7 +21,7 @@
 
 [Português](README_pt.md) | Русский | [العربية](README_ar.md) | [Italiano](README_it.md) | [हिन्दी](README_hi.md) | [Español](README_es.md)
 
-[Исходный проект](https://github.com/OpenListTeam/OpenList) · [Руководство по участию](https://github.com/OpenListTeam/OpenList-Worker/blob/main/CONTRIBUTING.md) · [Кодекс поведения](https://github.com/OpenListTeam/OpenList-Worker/blob/main/CODE_OF_CONDUCT.md) · [Лицензия](./LICENSE)
+[Исходный проект](https://github.com/OpenListTeam/OpenList) · [Руководство по участию](https://github.com/v200dd/OpenList-Worker/blob/main/CONTRIBUTING.md) · [Кодекс поведения](https://github.com/v200dd/OpenList-Worker/blob/main/CODE_OF_CONDUCT.md) · [Лицензия](./LICENSE)
 
 [🌎 Глобальная демо](https://new.oplist.org) 　|　 [🇨🇳 Демо Китай](https://new.oplist.org.cn)
 
@@ -37,12 +37,12 @@
 
 | EdgeOne Makers · Международный | EdgeOne Makers · Китай | Cloudflare Workers · Глобальный |
 | :---: | :---: | :---: |
-| [![Развернуть на EdgeOne](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?project-name=openlist-tsworker&repository-url=https://github.com/OpenListTeam/OpenList-Worker&install-command=pnpm%20install%20--no-frozen-lockfile&build-command=pnpm%20run%20build&output-directory=dist&env=ENCRYPTION_SECRET,JWT_SECRET) | [![Развернуть на EdgeOne](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://console.cloud.tencent.com/edgeone/pages/new?project-name=openlist-tsworker&repository-url=https://github.com/OpenListTeam/OpenList-Worker&install-command=pnpm%20install%20--no-frozen-lockfile&build-command=pnpm%20run%20build&output-directory=dist&env=ENCRYPTION_SECRET,JWT_SECRET) | [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/OpenListTeam/OpenList-Worker) |
+| [![Развернуть на EdgeOne](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?project-name=openlist-tsworker&repository-url=https://github.com/v200dd/OpenList-Worker&install-command=pnpm%20install%20--no-frozen-lockfile&build-command=pnpm%20run%20build&output-directory=dist&env=ENCRYPTION_SECRET,JWT_SECRET) | [![Развернуть на EdgeOne](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://console.cloud.tencent.com/edgeone/pages/new?project-name=openlist-tsworker&repository-url=https://github.com/v200dd/OpenList-Worker&install-command=pnpm%20install%20--no-frozen-lockfile&build-command=pnpm%20run%20build&output-directory=dist&env=ENCRYPTION_SECRET,JWT_SECRET) | [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/v200dd/OpenList-Worker) |
 
 </div>
 
 > [!IMPORTANT]
-> - Если Cloudflare отображает `не удаётся получить содержимое репозитория`, сначала [сделайте fork](https://github.com/OpenListTeam/OpenList-Worker/fork) этого проекта, а затем разверните, подключившись к репозиторию Github
+> - Если Cloudflare отображает `не удаётся получить содержимое репозитория`, сначала [сделайте fork](https://github.com/v200dd/OpenList-Worker/fork) этого проекта, а затем разверните, подключившись к репозиторию Github
 > - После развёртывания настройте переменные окружения: **EdgeOne**: [Международная консоль](https://console.edgeone.ai/makers) · [Консоль Китая](https://console.cloud.tencent.com/edgeone/makers); **Cloudflare**: [Панель Worker](https://dash.cloudflare.com/). Переменные окружения:
 >   - `DB_FORMAT`: формат хранения данных: `map` (по умолчанию, JSON всего объекта) / `key` (хранение по ключу) / `sql` (реляционные таблицы, совместимо с бэкендом Go)
 >   - `DB_DRIVER`: драйвер базы данных: `auto` (по умолчанию, автоопределение) / `blob` / `cfkv` / `kv` / `d1` / `mysql`
@@ -152,7 +152,7 @@ pnpm run deploy:worker
 
 Если у вас возникли проблемы, помощь доступна по следующим каналам:
 
-- 🐛 **Сообщения об ошибках или запросы функций**: посетите [_Issues_](https://github.com/OpenListTeam/OpenList-Worker/issues)
+- 🐛 **Сообщения об ошибках или запросы функций**: посетите [_Issues_](https://github.com/v200dd/OpenList-Worker/issues)
 - 💬 **Общие вопросы и обсуждение**: посетите форум [_Discussions_](https://github.com/OpenListTeam/OpenList/discussions)
 
 ## Лицензия
@@ -172,4 +172,4 @@ pnpm run deploy:worker
 - Автора и всех участников [OpenList](https://github.com/OpenListTeam/OpenList) (версия Go)
 - Всех участников этого проекта:
 
-[![Contributors](https://contrib.rocks/image?repo=OpenListTeam/OpenList-Worker)](https://github.com/OpenListTeam/OpenList-Worker/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=OpenListTeam/OpenList-Worker)](https://github.com/v200dd/OpenList-Worker/graphs/contributors)

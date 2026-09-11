@@ -58,6 +58,7 @@ publicRouter.get("/settings", async (c) => {
     preview_archives_by_default: "false",
     share_preview_download_by_default: "false",
     share_preview_archives_by_default: "false",
+    short_link_api: "https://url.200996.xyz/create",
 
     // --- Sharing ---
     // IMPORTANT: share_preview must be "true" — frontend blocks ALL previews when false
@@ -72,6 +73,7 @@ publicRouter.get("/settings", async (c) => {
     forward_direct_link_params: "false",
     ignore_direct_link_params: "",
     package_download: "true",
+    enable_file_download: "true",
     offline_download: "true",
     ocr_api: "",
     privacy_regs: "",

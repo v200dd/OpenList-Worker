@@ -100,3 +100,13 @@ test("Security(F-14): keys the frontend actually reads are still echoed", async 
   assert.equal(json.data.ldap_login_tips, "use your corp account")
   assert.equal(json.data.sso_login_platform, "github")
 })
+
+test("fork settings: short_link_api and enable_file_download are public", async () => {
+  await seed([
+    { key: "short_link_api", value: "https://url.example/create" },
+    { key: "enable_file_download", value: "false" },
+  ])
+  const json = await fetchSettings()
+  assert.equal(json.data.short_link_api, "https://url.example/create")
+  assert.equal(json.data.enable_file_download, "false")
+})

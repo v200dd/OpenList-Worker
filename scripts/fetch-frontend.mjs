@@ -29,7 +29,7 @@ const DEST = path.join(ROOT, "dist")
 
 const OFFICIAL_REPO_URL =
   process.env.FRONTEND_GIT_URL ||
-  "https://github.com/OpenListTeam/OpenList-Frontend.git"
+  "https://github.com/v200dd/OpenList-Frontend.git"
 const OFFICIAL_REPO_REF = process.env.FRONTEND_GIT_REF || "main"
 
 // 多语言翻译包：官方前端仓库不提交非英文翻译（由 Crowdin 维护），随 release 发布。
